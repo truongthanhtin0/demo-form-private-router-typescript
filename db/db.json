@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "fullName": "Truong Thanh Tin",
+      "userName": "admin",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "fullName": "Truong Thanh Tin",
+      "userName": "user",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "fullName": "Truong Thanh Tin",
+      "userName": "tintt",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "fullName": "Truong Thanh Tin",
+      "userName": "admin1",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "fullName": "Truong Thanh Tin",
+      "userName": "admin2",
+      "password": "12345678",
+      "id": 5
+    }
+  ]
+}

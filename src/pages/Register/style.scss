@@ -1,0 +1,64 @@
+.register {
+  height: 100vh;
+  background-color: #c4ddf5;
+  display: flex;
+
+  &__container {
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  &__header {
+    padding: 20px 40px 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  &__main {
+    padding: 20px 40px;
+    text-align: left;
+  }
+
+  &__wrapper {
+    margin: 16px 0;
+  }
+
+  &__input {
+    width: 100%;
+    height: 40px;
+    padding-left: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  &__checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+
+    &--icon {
+      height: 16px;
+      width: 16px;
+      margin-right: 8px;
+    }
+
+    &--color {
+      color: rgb(76, 122, 223);
+      cursor: pointer;
+    }
+  }
+
+  &__error {
+    color: red;
+    margin-top: 8px;
+  }
+}
